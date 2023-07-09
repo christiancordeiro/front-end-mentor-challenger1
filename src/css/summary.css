@@ -1,0 +1,88 @@
+.summary {
+  padding: 30px 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: hsl(224, 30%, 27%);
+  width: 50%;
+}
+
+.summary .status {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.summary .status .icon {
+  width: 15px;
+}
+
+.summary .status-pontuacao {
+  margin-left: 60px;
+}
+
+.status-pontuacao {
+  color: hsl(224, 30%, 27%);
+}
+
+.status:nth-child(1) {
+  color: hsla(0, 100%, 67%);
+  background: hsla(0, 100%, 67%, 0.05);
+  border-radius: 5px;
+}
+
+.status:nth-child(2) {
+  color: hsl(39, 100%, 56%);
+  background: hsl(39, 100%, 56%, 0.05);
+  border-radius: 5px;
+}
+
+.status:nth-child(3) {
+  color: hsl(166, 100%, 37%);
+  background: hsl(166, 100%, 37%, 0.05);
+  border-radius: 5px;
+}
+
+.status:nth-child(4) {
+  color: hsl(234, 85%, 45%);
+  background: hsl(234, 85%, 45%, 0.05);
+  border-radius: 5px;
+}
+
+.button {
+  background: hsl(224, 30%, 27%);
+}
+
+.button:hover {
+  background: linear-gradient(180deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+@media (max-width: 1280px) {
+
+  .summary {
+    width: 100%;
+  }
+
+  .summary .status {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .summary .status-pontuacao {
+    margin-left: 180px;
+  }
+
+  .button {
+    display: flex;
+    margin-left: 40px;
+    margin-top: 20px;
+    padding: 20px 120px;
+  }
+}
+
+@media (max-width: 360px) {
+  .button {
+    padding: 20px 140px;
+  }
+}

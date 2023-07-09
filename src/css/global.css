@@ -1,0 +1,45 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Hanken Grotesk", sans-serif;
+  background-color: rgba(224, 242, 247, 0.8);
+  color: hsl(224, 30%, 27%);
+  font-weight: 700;
+}
+
+li {
+  font-size: 13px;
+  list-style: none;
+}
+
+h1 {
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+
+.button {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  color: hsl(0, 0%, 100%);
+  padding: 10px 70px;
+  margin-top: 15px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 1280px) {
+  body {
+    background-color: white;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
