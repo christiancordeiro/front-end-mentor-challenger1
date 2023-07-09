@@ -11,6 +11,7 @@ body {
   background-color: rgba(224, 242, 247, 0.8);
   color: hsl(224, 30%, 27%);
   font-weight: 700;
+  min-height: 100vh;
 }
 
 li {
